@@ -1,0 +1,29 @@
+# Sensitive files and directories
+.env
+.env.*
+/.claude/
+.claude/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
