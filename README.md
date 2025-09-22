@@ -59,26 +59,52 @@ KOLE is building a decentralized supervision ecosystem that leverages blockchain
 
 ## 🏗️ Technical Architecture
 
-```
-┌─────────────────────────────────────────┐
-│          User Interface Layer           │
-│     (Web App / Mobile / API)           │
-└────────────────┬────────────────────────┘
-                 │
-┌────────────────▼────────────────────────┐
-│          Service Layer                  │
-│   (Business Logic / Smart Contracts)    │
-└────────────────┬────────────────────────┘
-                 │
-┌────────────────▼────────────────────────┐
-│         Blockchain Layer                │
-│        (Solana Network)                 │
-└────────────────┬────────────────────────┘
-                 │
-┌────────────────▼────────────────────────┐
-│          Storage Layer                  │
-│    (IPFS Distributed Storage)          │
-└─────────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph "Frontend Layer"
+        WEB[Web Application<br/>React + TypeScript]
+        MOBILE[Mobile App<br/>React Native]
+        API[REST API<br/>Node.js]
+    end
+
+    subgraph "Service Layer"
+        AUTH[Authentication<br/>Service]
+        REVIEW[Review Engine]
+        REWARD[Reward<br/>Distribution]
+        IPFS_SVC[IPFS Service]
+    end
+
+    subgraph "Blockchain Layer"
+        SC[Smart Contracts<br/>Rust/Solana]
+        TOKEN[KOLE Token<br/>SPL Standard]
+        DAO[DAO Governance]
+    end
+
+    subgraph "Storage Layer"
+        IPFS[(IPFS<br/>Evidence Storage)]
+        SOLANA[(Solana<br/>Metadata & Hashes)]
+        CACHE[(Redis Cache<br/>Performance)]
+    end
+
+    WEB --> AUTH
+    MOBILE --> AUTH
+    API --> AUTH
+
+    AUTH --> SC
+    REVIEW --> SC
+    REWARD --> TOKEN
+
+    SC --> SOLANA
+    IPFS_SVC --> IPFS
+
+    style WEB fill:#e1f5ff
+    style MOBILE fill:#e1f5ff
+    style API fill:#e1f5ff
+    style SC fill:#ffe1f5
+    style TOKEN fill:#ffe1f5
+    style DAO fill:#ffe1f5
+    style IPFS fill:#f5ffe1
+    style SOLANA fill:#f5ffe1
 ```
 
 ## 💎 Tokenomics

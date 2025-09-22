@@ -88,12 +88,54 @@ KOL劣迹曝光平台是一个基于区块链技术的去中心化监督生态�
 ### **3.1 投稿系统**
 
 #### **投稿流程**
-1.  **准备证据**
-2.  **填写信息**
-3.  **提交审核**
-4.  **评审团审核**
-5.  **审核通过**
-6.  **获得奖励**
+
+```mermaid
+flowchart TD
+    Start([用户发现KOL不当行为]) --> Collect[收集证据材料]
+    Collect --> Choice{选择提交方式}
+
+    Choice -->|匿名提交| Anon[生成匿名身份ID]
+    Choice -->|实名提交| Real[验证用户身份]
+
+    Anon --> Upload[上传证据文件]
+    Real --> Upload
+
+    Upload --> IPFS[文件上传至IPFS]
+    IPFS --> Hash[生成唯一哈希值]
+
+    Hash --> Fill[填写事件详情]
+    Fill --> Submit[提交到待审核池]
+
+    Submit --> Assign[系统分配3名审核员]
+    Assign --> Review{独立审核}
+
+    Review -->|全部通过| Chain[证据上链存储]
+    Review -->|存在驳回| Reject[返回修改建议]
+
+    Chain --> Reward[发放KOLE奖励]
+    Reward --> Public[公开曝光记录]
+
+    Reject --> Modify[用户修改证据]
+    Modify --> Submit
+
+    Public --> End([流程结束])
+
+    style Start fill:#e1f5fe
+    style End fill:#e8f5e9
+    style Chain fill:#fff3e0
+    style Reward fill:#fce4ec
+    style Reject fill:#ffebee
+```
+
+#### **详细步骤说明**
+1.  **准备证据** - 收集截图、录屏、聊天记录等
+2.  **选择方式** - 匿名或实名提交
+3.  **上传文件** - 证据自动上传至IPFS
+4.  **填写信息** - 描述事件经过和影响
+5.  **提交审核** - 进入去中心化评审流程
+6.  **评审团审核** - 3名独立审核员评估
+7.  **审核通过** - 证据永久上链存储
+8.  **获得奖励** - 自动发放KOLE代币
 
 #### **支持的证据类型**
 - 📷 图片证据（截图、照片）
