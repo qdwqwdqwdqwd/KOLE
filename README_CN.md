@@ -10,9 +10,12 @@
 
 **透明化KOL监督的去中心化生态系统**
 
-[官网](https://kolexposure.com) | [白皮书](docs/KOL劣迹曝光平台白皮书.md) | [English](README.md) | [社区](https://t.me/kolexposure)
+[官网](https://kolexposure.com) | [白皮书](docs/KOL劣迹曝光平台白皮书.md) | [社区](https://t.me/kolexposure)
 
 [![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social&label=关注@kolexposure)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social&label=关注@TODO_dream)](https://x.com/TODO_dream)
+
+### 🌍 多语言版本
+[🇬🇧 English](README.md) | [🇨🇳 中文](README_CN.md) | [🇯🇵 日本語](README_JP.md) | [🇷🇺 Русский](README_RU.md) | [🇪🇸 Español](README_ES.md) | [🇰🇷 한국어](README_KR.md) | [🇸🇦 العربية](README_AR.md) | [🇹🇷 Türkçe](README_TR.md)
 
 </div>
 
