@@ -10,7 +10,7 @@
 
 **ระบบนิเวศแบบกระจายอำนาจเพื่อความโปร่งใสและความรับผิดชอบของ KOL**
 
-[เว็บไซต์](https://kolexposure.com) | [เอกสารแนวคิด](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md) | [ชุมชน](https://t.me/kolexposure)
+[เว็บไซต์](https://kolexposure.com) | [เอกสารแนวคิด](docs/whitepapers/Whitepaper_TH.md) | [ชุมชน](https://t.me/kolexposure)
 
 [![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social)](https://x.com/TODO_dream)
 
@@ -196,8 +196,8 @@ npm run dev
 ```
 
 ### เอกสารประกอบ
-- 📖 [เอกสารแนวคิดภาษาอังกฤษ](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md)
-- 📖 [白皮书中文版](docs/KOL劣迹曝光平台白皮书.md)
+- 📖 [เอกสารแนวคิดภาษาอังกฤษ](docs/whitepapers/Whitepaper_EN.md)
+- 📖 [白皮书中文版](docs/whitepapers/Whitepaper_CN.md)
 - 📖 [คู่มือชุมชน](docs/社区资料.md)
 - 📖 [เอกสาร API](docs/api.md)
 

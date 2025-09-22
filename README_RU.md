@@ -10,7 +10,7 @@
 
 **Децентрализованная Экосистема для Прозрачной Подотчетности KOL**
 
-[Веб-сайт](https://kolexposure.com) | [Белая Книга](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md) | [English](README.md) | [中文](README_CN.md) | [Сообщество](https://t.me/kolexposure)
+[Веб-сайт](https://kolexposure.com) | [Белая Книга](docs/whitepapers/Whitepaper_RU.md) | [English](README.md) | [中文](README_CN.md) | [Сообщество](https://t.me/kolexposure)
 
 [![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social)](https://x.com/TODO_dream)
 
@@ -193,8 +193,8 @@ npm run dev
 ```
 
 ### Документация
-- 📖 [Английская Белая Книга](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md)
-- 📖 [中文白皮书](docs/KOL劣迹曝光平台白皮书.md)
+- 📖 [Английская Белая Книга](docs/whitepapers/Whitepaper_EN.md)
+- 📖 [中文白皮书](docs/whitepapers/Whitepaper_CN.md)
 - 📖 [Руководство для Сообщества](docs/社区资料.md)
 - 📖 [Документация API](docs/api.md)
 

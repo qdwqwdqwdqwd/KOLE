@@ -19,8 +19,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ├── data/           # Platform data and knowledge base
 │   └── 知识库.json  # Structured knowledge base with platform metadata
 ├── docs/           # Platform documentation
-│   ├── KOL劣迹曝光平台白皮书.md         # Chinese whitepaper
-│   ├── KOL Misconduct Exposure Platform Whitepaper.md  # English whitepaper
+│   ├── whitepapers/                     # Whitepaper documents
+│   │   ├── Whitepaper_CN.md            # Chinese whitepaper
+│   │   ├── Whitepaper_EN.md            # English whitepaper
+│   │   └── Whitepaper_*.md             # Other language whitepapers
 │   └── 社区资料.md                      # Detailed community mechanisms
 └── .history/       # Version control history for sensitive files
 ```

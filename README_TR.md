@@ -10,7 +10,7 @@
 
 **Şeffaf KOL Hesap Verilebilirliği için Merkeziyetsiz Ekosistem**
 
-[Web Sitesi](https://kolexposure.com) | [Beyaz Kitap](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md) | [English](README.md) | [中文](README_CN.md) | [Topluluk](https://t.me/kolexposure)
+[Web Sitesi](https://kolexposure.com) | [Beyaz Kitap](docs/whitepapers/Whitepaper_TR.md) | [English](README.md) | [中文](README_CN.md) | [Topluluk](https://t.me/kolexposure)
 
 [![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social)](https://x.com/TODO_dream)
 
@@ -193,8 +193,8 @@ npm run dev
 ```
 
 ### Dokümantasyon
-- 📖 [İngilizce Beyaz Kitap](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md)
-- 📖 [中文白皮书](docs/KOL劣迹曝光平台白皮书.md)
+- 📖 [İngilizce Beyaz Kitap](docs/whitepapers/Whitepaper_EN.md)
+- 📖 [中文白皮书](docs/whitepapers/Whitepaper_CN.md)
 - 📖 [Topluluk Rehberi](docs/社区资料.md)
 - 📖 [API Dokümantasyonu](docs/api.md)
 

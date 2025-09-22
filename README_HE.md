@@ -10,7 +10,7 @@
 
 **מערכת אקולוגית מבוזרת לשקיפות ואחריות של KOL**
 
-[אתר](https://kolexposure.com) | [נייר לבן](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md) | [קהילה](https://t.me/kolexposure)
+[אתר](https://kolexposure.com) | [נייר לבן](docs/whitepapers/Whitepaper_HE.md) | [קהילה](https://t.me/kolexposure)
 
 [![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social)](https://x.com/TODO_dream)
 
@@ -196,8 +196,8 @@ npm run dev
 ```
 
 ### תיעוד
-- 📖 [נייר לבן באנגלית](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md)
-- 📖 [白皮书中文版](docs/KOL劣迹曝光平台白皮书.md)
+- 📖 [נייר לבן באנגלית](docs/whitepapers/Whitepaper_EN.md)
+- 📖 [白皮书中文版](docs/whitepapers/Whitepaper_CN.md)
 - 📖 [מדריך קהילה](docs/社区资料.md)
 - 📖 [תיעוד API](docs/api.md)
 

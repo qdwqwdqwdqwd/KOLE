@@ -10,7 +10,7 @@
 
 **Un Ecosistema Descentralizado para la Transparencia y Responsabilidad de KOL**
 
-[Sitio Web](https://kolexposure.com) | [Libro Blanco](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md) | [English](README.md) | [中文](README_CN.md) | [Comunidad](https://t.me/kolexposure)
+[Sitio Web](https://kolexposure.com) | [Libro Blanco](docs/whitepapers/Whitepaper_ES.md) | [English](README.md) | [中文](README_CN.md) | [Comunidad](https://t.me/kolexposure)
 
 [![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social)](https://x.com/TODO_dream)
 
@@ -193,8 +193,8 @@ npm run dev
 ```
 
 ### Documentación
-- 📖 [Libro Blanco en Inglés](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md)
-- 📖 [中文白皮书](docs/KOL劣迹曝光平台白皮书.md)
+- 📖 [Libro Blanco en Inglés](docs/whitepapers/Whitepaper_EN.md)
+- 📖 [中文白皮书](docs/whitepapers/Whitepaper_CN.md)
 - 📖 [Guía de la Comunidad](docs/社区资料.md)
 - 📖 [Documentación de API](docs/api.md)
 

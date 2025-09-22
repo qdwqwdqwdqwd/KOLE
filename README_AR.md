@@ -10,7 +10,7 @@
 
 **نظام بيئي لامركزي للمساءلة الشفافة لقادة الرأي**
 
-[الموقع الإلكتروني](https://kolexposure.com) | [الورقة البيضاء](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md) | [English](README.md) | [中文](README_CN.md) | [المجتمع](https://t.me/kolexposure)
+[الموقع الإلكتروني](https://kolexposure.com) | [الورقة البيضاء](docs/whitepapers/Whitepaper_AR.md) | [English](README.md) | [中文](README_CN.md) | [المجتمع](https://t.me/kolexposure)
 
 [![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social)](https://x.com/TODO_dream)
 
@@ -193,8 +193,8 @@ npm run dev
 ```
 
 ### الوثائق
-- 📖 [الورقة البيضاء الإنجليزية](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md)
-- 📖 [中文白皮书](docs/KOL劣迹曝光平台白皮书.md)
+- 📖 [الورقة البيضاء الإنجليزية](docs/whitepapers/Whitepaper_EN.md)
+- 📖 [中文白皮书](docs/whitepapers/Whitepaper_CN.md)
 - 📖 [دليل المجتمع](docs/社区资料.md)
 - 📖 [وثائق API](docs/api.md)
 

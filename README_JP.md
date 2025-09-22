@@ -10,7 +10,7 @@
 
 **透明なKOL監視のための分散型エコシステム**
 
-[ウェブサイト](https://kolexposure.com) | [ホワイトペーパー](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md) | [English](README.md) | [中文](README_CN.md) | [コミュニティ](https://t.me/kolexposure)
+[ウェブサイト](https://kolexposure.com) | [ホワイトペーパー](docs/whitepapers/Whitepaper_JP.md) | [English](README.md) | [中文](README_CN.md) | [コミュニティ](https://t.me/kolexposure)
 
 [![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social&label=フォロー@kolexposure)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social&label=フォロー@TODO_dream)](https://x.com/TODO_dream)
 

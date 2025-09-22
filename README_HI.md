@@ -10,7 +10,7 @@
 
 **KOL पारदर्शिता और जवाबदेही के लिए एक विकेंद्रीकृत इकोसिस्टम**
 
-[वेबसाइट](https://kolexposure.com) | [व्हाइटपेपर](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md) | [समुदाय](https://t.me/kolexposure)
+[वेबसाइट](https://kolexposure.com) | [व्हाइटपेपर](docs/whitepapers/Whitepaper_HI.md) | [समुदाय](https://t.me/kolexposure)
 
 [![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social)](https://x.com/TODO_dream)
 
@@ -196,8 +196,8 @@ npm run dev
 ```
 
 ### दस्तावेज़ीकरण
-- 📖 [अंग्रेजी व्हाइटपेपर](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md)
-- 📖 [中文白皮书](docs/KOL劣迹曝光平台白皮书.md)
+- 📖 [अंग्रेजी व्हाइटपेपर](docs/whitepapers/Whitepaper_EN.md)
+- 📖 [中文白皮书](docs/whitepapers/Whitepaper_CN.md)
 - 📖 [समुदायिक गाइड](docs/社区资料.md)
 - 📖 [API दस्तावेज़](docs/api.md)
 

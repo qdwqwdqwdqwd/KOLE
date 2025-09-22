@@ -10,7 +10,7 @@
 
 **Một Hệ Sinh Thái Phi Tập Trung Cho Sự Minh Bạch và Trách Nhiệm KOL**
 
-[Website](https://kolexposure.com) | [Whitepaper](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md) | [Cộng Đồng](https://t.me/kolexposure)
+[Website](https://kolexposure.com) | [Whitepaper](docs/whitepapers/Whitepaper_VI.md) | [Cộng Đồng](https://t.me/kolexposure)
 
 [![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social)](https://x.com/TODO_dream)
 
@@ -196,8 +196,8 @@ npm run dev
 ```
 
 ### Tài liệu
-- 📖 [Whitepaper tiếng Anh](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md)
-- 📖 [白皮书中文版](docs/KOL劣迹曝光平台白皮书.md)
+- 📖 [Whitepaper tiếng Anh](docs/whitepapers/Whitepaper_EN.md)
+- 📖 [白皮书中文版](docs/whitepapers/Whitepaper_CN.md)
 - 📖 [Hướng dẫn cộng đồng](docs/社区资料.md)
 - 📖 [Tài liệu API](docs/api.md)
 
