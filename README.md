@@ -10,7 +10,7 @@
 
 **A Decentralized Ecosystem for Transparent KOL Accountability**
 
-[Website](https://kolexposure.com) | [Whitepaper](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md) | [Community](https://t.me/kolexposure)
+[Website](https://kolexposure.com) | [Whitepaper](docs/whitepapers/Whitepaper_EN.md) | [Community](https://t.me/kolexposure)
 
 [![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social)](https://x.com/TODO_dream)
 
@@ -196,8 +196,8 @@ npm run dev
 ```
 
 ### Documentation
-- 📖 [English Whitepaper](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md)
-- 📖 [中文白皮书](docs/KOL劣迹曝光平台白皮书.md)
+- 📖 [English Whitepaper](docs/whitepapers/Whitepaper_EN.md)
+- 📖 [中文白皮书](docs/whitepapers/Whitepaper_CN.md)
 - 📖 [Community Guide](docs/社区资料.md)
 - 📖 [API Documentation](docs/api.md)
 

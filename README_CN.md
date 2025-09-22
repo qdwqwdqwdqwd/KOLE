@@ -10,7 +10,7 @@
 
 **透明化KOL监督的去中心化生态系统**
 
-[官网](https://kolexposure.com) | [白皮书](docs/KOL劣迹曝光平台白皮书.md) | [社区](https://t.me/kolexposure)
+[官网](https://kolexposure.com) | [白皮书](docs/whitepapers/Whitepaper_CN.md) | [社区](https://t.me/kolexposure)
 
 [![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social&label=关注@kolexposure)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social&label=关注@TODO_dream)](https://x.com/TODO_dream)
 
@@ -196,8 +196,8 @@ npm run dev
 ```
 
 ### 文档资料
-- 📖 [英文白皮书](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md)
-- 📖 [中文白皮书](docs/KOL劣迹曝光平台白皮书.md)
+- 📖 [英文白皮书](docs/whitepapers/Whitepaper_EN.md)
+- 📖 [中文白皮书](docs/whitepapers/Whitepaper_CN.md)
 - 📖 [社区指南](docs/社区资料.md)
 - 📖 [API 文档](docs/api.md)
 
