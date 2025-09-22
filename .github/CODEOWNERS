@@ -1,0 +1,17 @@
+# This file defines who is responsible for code in this repository.
+# These users will be automatically requested for review when someone opens a pull request.
+
+# Global owners
+* @qdwqwdqwdqwd
+
+# Documentation
+/docs/ @qdwqwdqwdqwd
+*.md @qdwqwdqwdqwd
+
+# Smart contracts
+/contracts/ @qdwqwdqwdqwd
+
+# Configuration files
+/.github/ @qdwqwdqwdqwd
+*.yml @qdwqwdqwdqwd
+*.json @qdwqwdqwdqwd
