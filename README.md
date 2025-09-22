@@ -53,7 +53,9 @@ KOLE is building a decentralized supervision ecosystem that leverages blockchain
 | **Transaction Speed** | 65,000 TPS |
 | **Transaction Cost** | < $0.01 |
 | **Token Standard** | SPL |
-| **Contract Address** | `2EL3kJNYbgoqvtK4eyfNxgYiwm2V7B84kfMd1KLRpump` |
+| **Contract Address (CA)** | `2EL3kJNYbgoqvtK4eyfNxgYiwm2V7B84kfMd1KLRpump` |
+| **DEX** | [View on Raydium](https://raydium.io/swap/?inputCurrency=sol&outputCurrency=2EL3kJNYbgoqvtK4eyfNxgYiwm2V7B84kfMd1KLRpump) |
+| **Explorer** | [View on Solscan](https://solscan.io/token/2EL3kJNYbgoqvtK4eyfNxgYiwm2V7B84kfMd1KLRpump) |
 
 ## 🏗️ Technical Architecture
 
@@ -188,9 +190,10 @@ We welcome contributions from the community! Please read our [Contributing Guide
 ### Official Channels
 - 🌐 **Website**: [https://kolexposure.com](https://kolexposure.com)
 - 💬 **Telegram**: [https://t.me/kolexposure](https://t.me/kolexposure)
-- 🐦 **Twitter/X**: [@kolexposure](https://x.com/kolexposure)
+- 🐦 **Twitter/X**: [@kolexposure](https://x.com/kolexposure) | [@TODO_dream](https://x.com/TODO_dream)
 - 🎮 **Discord**: [Join Server](https://discord.com/invite/sZf44CseTf)
 - 📧 **Email**: support@kolexposure.com
+- 💰 **CA**: `2EL3kJNYbgoqvtK4eyfNxgYiwm2V7B84kfMd1KLRpump`
 
 ### Resources
 - [FAQ](docs/FAQ.md)
