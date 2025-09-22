@@ -12,6 +12,8 @@
 
 [Website](https://kolexposure.com) | [Whitepaper](docs/KOL%20Misconduct%20Exposure%20Platform%20Whitepaper.md) | [中文文档](README_CN.md) | [Community](https://t.me/kolexposure)
 
+[![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social)](https://x.com/TODO_dream)
+
 </div>
 
 ---
@@ -58,6 +60,8 @@ KOLE is building a decentralized supervision ecosystem that leverages blockchain
 | **Explorer** | [View on Solscan](https://solscan.io/token/2EL3kJNYbgoqvtK4eyfNxgYiwm2V7B84kfMd1KLRpump) |
 
 ## 🏗️ Technical Architecture
+
+> ⚠️ **Mobile Users**: Diagrams may not render on mobile. [View text version here](docs/DIAGRAMS_VIEWER.md)
 
 ```mermaid
 graph TB
@@ -216,7 +220,9 @@ We welcome contributions from the community! Please read our [Contributing Guide
 ### Official Channels
 - 🌐 **Website**: [https://kolexposure.com](https://kolexposure.com)
 - 💬 **Telegram**: [https://t.me/kolexposure](https://t.me/kolexposure)
-- 🐦 **Twitter/X**: [@kolexposure](https://x.com/kolexposure) | [@TODO_dream](https://x.com/TODO_dream)
+- 🐦 **Twitter/X**:
+  - Main: [@kolexposure](https://x.com/kolexposure)
+  - Updates: [@TODO_dream](https://x.com/TODO_dream)
 - 🎮 **Discord**: [Join Server](https://discord.com/invite/sZf44CseTf)
 - 📧 **Email**: support@kolexposure.com
 - 💰 **CA**: `2EL3kJNYbgoqvtK4eyfNxgYiwm2V7B84kfMd1KLRpump`

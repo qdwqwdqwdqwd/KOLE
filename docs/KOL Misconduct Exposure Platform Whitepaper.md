@@ -88,12 +88,54 @@ The KOL Misconduct Exposure Platform is a decentralized supervision ecosystem ba
 ### **3.1 Submission System**
 
 #### **Submission Process**
-1.  **Prepare Evidence**
-2.  **Fill in Information**
-3.  **Submit for Review**
-4.  **Jury Review**
-5.  **Approval**
-6.  **Receive Reward**
+
+```mermaid
+flowchart TD
+    Start([User Discovers KOL Misconduct]) --> Collect[Collect Evidence Materials]
+    Collect --> Choice{Choose Submission Method}
+
+    Choice -->|Anonymous| Anon[Generate Anonymous ID]
+    Choice -->|Real Name| Real[Verify User Identity]
+
+    Anon --> Upload[Upload Evidence Files]
+    Real --> Upload
+
+    Upload --> IPFS[Files Uploaded to IPFS]
+    IPFS --> Hash[Generate Unique Hash]
+
+    Hash --> Fill[Fill in Event Details]
+    Fill --> Submit[Submit to Review Pool]
+
+    Submit --> Assign[System Assigns 3 Reviewers]
+    Assign --> Review{Independent Review}
+
+    Review -->|All Approve| Chain[Evidence Stored on Chain]
+    Review -->|Any Reject| Reject[Return with Suggestions]
+
+    Chain --> Reward[Distribute KOLE Rewards]
+    Reward --> Public[Public Exposure Record]
+
+    Reject --> Modify[User Modifies Evidence]
+    Modify --> Submit
+
+    Public --> End([Process Complete])
+
+    style Start fill:#e1f5fe
+    style End fill:#e8f5e9
+    style Chain fill:#fff3e0
+    style Reward fill:#fce4ec
+    style Reject fill:#ffebee
+```
+
+#### **Detailed Steps**
+1.  **Prepare Evidence** - Collect screenshots, recordings, chat logs
+2.  **Choose Method** - Anonymous or real-name submission
+3.  **Upload Files** - Evidence automatically uploaded to IPFS
+4.  **Fill Information** - Describe the incident and impact
+5.  **Submit for Review** - Enter decentralized review process
+6.  **Jury Review** - 3 independent reviewers evaluate
+7.  **Approval** - Evidence permanently stored on-chain
+8.  **Receive Reward** - Automatic KOLE token distribution
 
 #### **Supported Evidence Types**
 - 📷 Image Evidence (screenshots, photos)

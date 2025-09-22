@@ -989,9 +989,12 @@ tail -f logs/application.log
 
 ### Contact
 
-- Technical Support: tech@kolexposure.com
-- Discord: [Developer Channel](https://discord.com/invite/sZf44CseTf)
-- GitHub Issues: [https://github.com/qdwqwdqwdqwd/KOLE/issues](https://github.com/qdwqwdqwdqwd/KOLE/issues)
+- **Website**: [https://kolexposure.com](https://kolexposure.com)
+- **Technical Support**: tech@kolexposure.com
+- **Telegram**: [https://t.me/kolexposure](https://t.me/kolexposure)
+- **Twitter/X**: [@kolexposure](https://x.com/kolexposure) | [@TODO_dream](https://x.com/TODO_dream)
+- **Discord**: [Developer Channel](https://discord.com/invite/sZf44CseTf)
+- **GitHub Issues**: [https://github.com/qdwqwdqwdqwd/KOLE/issues](https://github.com/qdwqwdqwdqwd/KOLE/issues)
 
 ---
 

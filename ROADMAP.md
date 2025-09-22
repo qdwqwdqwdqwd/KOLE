@@ -345,8 +345,10 @@ This roadmap is reviewed and updated monthly. Last update: **January 2025**
 
 ### Contact
 
+- **Website**: [https://kolexposure.com](https://kolexposure.com)
 - **Email**: roadmap@kolexposure.com
 - **Telegram**: [https://t.me/kolexposure](https://t.me/kolexposure)
+- **Twitter/X**: [@kolexposure](https://x.com/kolexposure) | [@TODO_dream](https://x.com/TODO_dream)
 - **Discord**: [Join our server](https://discord.com/invite/sZf44CseTf)
 
 ---

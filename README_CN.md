@@ -12,6 +12,8 @@
 
 [官网](https://kolexposure.com) | [白皮书](docs/KOL劣迹曝光平台白皮书.md) | [English](README.md) | [社区](https://t.me/kolexposure)
 
+[![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social&label=关注@kolexposure)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social&label=关注@TODO_dream)](https://x.com/TODO_dream)
+
 </div>
 
 ---
@@ -59,26 +61,54 @@ KOLE 正在构建一个去中心化的监督生态系统，利用区块链技术
 
 ## 🏗️ 技术架构
 
-```
-┌─────────────────────────────────────────┐
-│           用户界面层                    │
-│      (Web应用 / 移动端 / API)          │
-└────────────────┬────────────────────────┘
-                 │
-┌────────────────▼────────────────────────┐
-│           服务层                        │
-│    (业务逻辑 / 智能合约)               │
-└────────────────┬────────────────────────┘
-                 │
-┌────────────────▼────────────────────────┐
-│          区块链层                       │
-│        (Solana 网络)                    │
-└────────────────┬────────────────────────┘
-                 │
-┌────────────────▼────────────────────────┐
-│           存储层                        │
-│      (IPFS 分布式存储)                 │
-└─────────────────────────────────────────┘
+> ⚠️ **移动端用户**：图表可能无法在移动设备上显示。[查看文字版本](docs/DIAGRAMS_VIEWER.md)
+
+```mermaid
+graph TB
+    subgraph "前端层"
+        WEB[Web应用<br/>React + TypeScript]
+        MOBILE[移动应用<br/>React Native]
+        API[REST API<br/>Node.js]
+    end
+
+    subgraph "服务层"
+        AUTH[身份验证<br/>服务]
+        REVIEW[评审引擎]
+        REWARD[奖励<br/>分发]
+        IPFS_SVC[IPFS服务]
+    end
+
+    subgraph "区块链层"
+        SC[智能合约<br/>Rust/Solana]
+        TOKEN[KOLE代币<br/>SPL标准]
+        DAO[DAO治理]
+    end
+
+    subgraph "存储层"
+        IPFS[(IPFS<br/>证据存储)]
+        SOLANA[(Solana<br/>元数据和哈希)]
+        CACHE[(Redis缓存<br/>性能优化)]
+    end
+
+    WEB --> AUTH
+    MOBILE --> AUTH
+    API --> AUTH
+
+    AUTH --> SC
+    REVIEW --> SC
+    REWARD --> TOKEN
+
+    SC --> SOLANA
+    IPFS_SVC --> IPFS
+
+    style WEB fill:#e1f5ff
+    style MOBILE fill:#e1f5ff
+    style API fill:#e1f5ff
+    style SC fill:#ffe1f5
+    style TOKEN fill:#ffe1f5
+    style DAO fill:#ffe1f5
+    style IPFS fill:#f5ffe1
+    style SOLANA fill:#f5ffe1
 ```
 
 ## 💎 代币经济
@@ -190,7 +220,9 @@ npm run dev
 ### 官方渠道
 - 🌐 **官网**: [https://kolexposure.com](https://kolexposure.com)
 - 💬 **Telegram**: [https://t.me/kolexposure](https://t.me/kolexposure)
-- 🐦 **Twitter/X**: [@kolexposure](https://x.com/kolexposure) | [@TODO_dream](https://x.com/TODO_dream)
+- 🐦 **Twitter/X**:
+  - 主账号: [@kolexposure](https://x.com/kolexposure)
+  - 更新账号: [@TODO_dream](https://x.com/TODO_dream)
 - 🎮 **Discord**: [加入服务器](https://discord.com/invite/sZf44CseTf)
 - 📧 **邮箱**: support@kolexposure.com
 - 💰 **CA**: `2EL3kJNYbgoqvtK4eyfNxgYiwm2V7B84kfMd1KLRpump`

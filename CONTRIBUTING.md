@@ -24,6 +24,41 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 
 ## 📋 Development Process
 
+```mermaid
+gitGraph
+    commit id: "Fork Repository"
+    branch feature-branch
+    checkout feature-branch
+    commit id: "Add Feature Code"
+    commit id: "Write Tests"
+    commit id: "Update Docs"
+    checkout main
+    merge feature-branch tag: "v1.0.1"
+```
+
+### Contribution Workflow
+
+```mermaid
+flowchart LR
+    A[Fork Repo] --> B[Clone Locally]
+    B --> C[Create Branch]
+    C --> D[Make Changes]
+    D --> E{Tests Pass?}
+    E -->|No| F[Fix Issues]
+    F --> E
+    E -->|Yes| G[Commit Changes]
+    G --> H[Push to Fork]
+    H --> I[Create PR]
+    I --> J{Review}
+    J -->|Changes Requested| K[Update PR]
+    K --> J
+    J -->|Approved| L[Merged!]
+
+    style A fill:#e1f5fe
+    style L fill:#c8e6c9
+    style F fill:#ffecb3
+```
+
 1. **Fork & Clone**
    ```bash
    git clone https://github.com/your-username/KOLE.git
