@@ -1,0 +1,407 @@
+{
+  "metadata_version": "2025-09-21.2",
+  "last_updated": "2025-09-21",
+  "sources": [
+    {
+      "path": "白皮书.md",
+      "title": "KOL劣迹曝光平台白皮书",
+      "version": "1.2",
+      "release_date": "2025-09"
+    },
+    {
+      "path": "社区资料.md",
+      "title": "社区资料 - 机制详细版本",
+      "version": "2025更新",
+      "release_date": "2025-09"
+    }
+  ],
+  "project": {
+    "name_cn": "KOL劣迹曝光平台",
+    "name_en": "KOL Exposure Platform",
+    "tagline": "基于Solana与IPFS的去中心化KOL劣迹曝光与监督生态",
+    "mission": "基于区块链技术打造去中心化、透明、公正的KOL监督生态，通过社区治理与不可篡改的存证流程保护投资者与消费者权益。",
+    "vision": "构建一个全民参与、证据可信、治理公开的下一代KOL监督网络，遏制劣迹行为并重塑行业信任。",
+    "value_proposition": [
+      "区块链不可篡改存证让证据永久可信",
+      "社区自治评审机制确保审核公正透明",
+      "通缩型代币激励体系驱动长期参与",
+      "公开抽奖与治理流程强化社区凝聚力"
+    ],
+    "pain_points_addressed": [
+      "虚假宣传导致投资者与消费者受骗",
+      "恶意收割与割韭菜行为缺乏有效举报渠道",
+      "数据造假混淆品牌与广告主决策",
+      "传统中心化平台监管不力且证据易被删除",
+      "维权难度高缺乏可信存证"
+    ]
+  },
+  "narrative_pillars": [
+    {
+      "id": "decentralized_supervision",
+      "title": "去中心化监督",
+      "description": "社区驱动、投票选举评审团，所有流程公开可查，避免单点控制。",
+      "supporting_points": [
+        "评审团通过代币持有者投票产生",
+        "案件随机分配评审员并独立打分",
+        "一致性原则：所有评审员通过方可认证"
+      ]
+    },
+    {
+      "id": "onchain_evidence",
+      "title": "链上存证",
+      "description": "Solana高性能链结合IPFS，实现证据永久留存与公开验证。",
+      "supporting_points": [
+        "证据哈希与元数据写入Solana智能合约",
+        "原始文件上传IPFS并生成唯一CID",
+        "链上记录任何人可查，数据不可篡改"
+      ]
+    },
+    {
+      "id": "token_incentives",
+      "title": "激励闭环",
+      "description": "KOLE代币奖励举报者、评审员与治理参与者，辅以回购销毁形成通缩模型。",
+      "supporting_points": [
+        "举报、补充证据、评审工作分别奖励100k/20k/50k KOLE",
+        "抽奖池与治理权等多重用例",
+        "直播奖励与基金会回购形成持续销毁"
+      ]
+    },
+    {
+      "id": "community_growth",
+      "title": "社区共建",
+      "description": "透明运营、定期数据披露与多渠道社群让用户持续参与并见证价值。",
+      "supporting_points": [
+        "持币抽奖实时公开奖池与中奖记录",
+        "治理委员会执行持币者大会决策",
+        "官网、Telegram、X、Discord等渠道同步运营"
+      ]
+    }
+  ],
+  "audience_profiles": [
+    {
+      "id": "whistleblowers",
+      "label": "投稿人/举报者",
+      "needs": ["安全匿名投稿", "证据长期保存", "得到合理奖励"],
+      "preferred_messaging": "强调匿名/实名自选、评审独立以及高额首次举报奖励。"
+    },
+    {
+      "id": "jury_members",
+      "label": "评审团候选人",
+      "needs": ["权重透明", "参与治理", "获得声誉与奖励"],
+      "preferred_messaging": "突出随机分配、独立评审机制与评审员奖励50,000 KOLE。"
+    },
+    {
+      "id": "token_holders",
+      "label": "KOLE持币者",
+      "needs": ["资产增值逻辑", "抽奖激励", "治理权重"],
+      "preferred_messaging": "强化通缩机制、抽奖奖池与投票权重、提案权等权益。"
+    },
+    {
+      "id": "partners",
+      "label": "生态合作方/媒体",
+      "needs": ["平台可信度", "技术可靠性", "公开透明数据"],
+      "preferred_messaging": "强调Solana性能、IPFS冗余、DAO治理与公开查询接口。"
+    }
+  ],
+  "infrastructure": {
+    "application_layer": ["Web前端", "移动端", "开放API", "管理后台"],
+    "service_layer": ["业务逻辑服务", "智能合约交互", "数据处理"],
+    "blockchain_layer": {
+      "network": "Solana",
+      "tps": 65000,
+      "block_time_ms": 400,
+      "avg_fee_usd_less_than": 0.01
+    },
+    "storage_layer": {
+      "primary": "IPFS",
+      "capabilities": ["分布式冗余备份", "内容寻址哈希", "全球节点同步", "CDN加速"]
+    },
+    "smart_contracts": {
+      "evidence_contract": "自动执行证据存证流程",
+      "reward_contract": "管理举报、补充证据与评审奖励发放",
+      "governance_contract": "处理投票、提案与权重加成"
+    }
+  },
+  "platform_features": {
+    "submission_system": {
+      "description": "支持匿名/实名投稿，收集多媒体证据并记录KOL信息。",
+      "supported_evidence": ["图片截图", "视频录屏", "聊天记录", "合同及文档"],
+      "states": ["草稿", "审核中", "已通过", "已拒绝"]
+    },
+    "jury_system": {
+      "panel_size_min": 3,
+      "independent_review": true,
+      "consensus_requirement": "全体评审一致同意方可通过，任意一票否决即驳回",
+      "rating_scale": "1-5 星级，最终等级按平均值四舍五入"
+    },
+    "exposure_portal": {
+      "severity_levels": [
+        {"level": 5, "label": "极端", "description": "诈骗、严重欺诈", "display": "*****"},
+        {"level": 4, "label": "重大", "description": "恶意收割、虚假宣传", "display": "****"},
+        {"level": 3, "label": "严重", "description": "夸大宣传、数据造假", "display": "***"},
+        {"level": 2, "label": "中等", "description": "失信或不当言论", "display": "**"},
+        {"level": 1, "label": "轻微", "description": "服务质量差、态度恶劣", "display": "*"}
+      ],
+      "output_elements": ["事件摘要", "证据哈希", "评级星级", "奖励发放状态"]
+    },
+    "onchain_registry": {
+      "hash_storage": "CID写入Solana智能合约",
+      "metadata": ["被曝光KOL信息", "事件描述", "评级", "时间戳", "评审员ID"],
+      "public_access": "链上浏览器可查"
+    },
+    "lottery_module": {
+      "hourly_draw": "每小时10 SOL奖池，5/3/2 SOL分配",
+      "daily_grand_draw": "每日00:00 (新加坡时间) 66 SOL奖池，40/20/6 SOL分配",
+      "eligibility": "持仓≥30万 KOLE 获取1张抽奖券，持有时长≥1小时，最多计算5张"
+    },
+    "transparency_dashboards": ["奖金池余额与倒计时", "历史中奖地址", "链上奖品发放记录", "治理投票记录"]
+  },
+  "core_workflows": {
+    "submission": {
+      "steps": [
+        "用户准备证据并选择匿名或实名模式",
+        "填写KOL资料与事件描述，上传多媒体证据",
+        "系统标记为审核中并推送至评审队列"
+      ],
+      "outputs": ["待评审案件ID", "证据哈希准备", "投稿人奖励待发"]
+    },
+    "review": {
+      "steps": [
+        "系统随机指派至少3名评审员",
+        "评审员独立给出1-5级评级与通过/拒绝判断",
+        "系统检验一致性要求并计算平均等级",
+        "通过案件触发奖励并进入链上存证流程"
+      ],
+      "sla_hours": 48,
+      "rewards": "投稿人、评审员分别获得既定KOLE奖励"
+    },
+    "onchain_record": {
+      "steps": [
+        "通过案件的证据上传IPFS生成CID",
+        "调用Solana智能合约写入CID与元数据",
+        "生成可公开查询的链上记录"
+      ],
+      "guarantees": ["不可篡改", "可验证", "去中心化存储"]
+    },
+    "reward_distribution": {
+      "triggers": ["首次举报通过", "补充证据通过", "评审任务完成"],
+      "amounts_kole": {"first_report": 100000, "supplemental": 20000, "review": 50000},
+      "mechanism": "奖励合约自动执行并记录链上交易哈希"
+    },
+    "governance_cycle": {
+      "steps": [
+        "持币者提交提案草案 (依据提案类型)",
+        "治理合约开放投票，权重按持仓区间加成",
+        "投票结束由治理委员会执行决议",
+        "结果公示并记录在链上"
+      ],
+      "proposal_types": ["技术", "经济", "运营", "紧急"]
+    }
+  },
+  "token": {
+    "name": "KOLE Token",
+    "symbol": "KOLE",
+    "network": "Solana (SPL)",
+    "decimals": 9,
+    "total_supply": 1000000000,
+    "supply_type": "固定一次性铸造",
+    "distribution": [
+      {
+        "allocation": "用户投稿奖励",
+        "percent": 40,
+        "status": "锁定",
+        "unlock_policy": "每日解锁0.5%，未使用部分每周重新锁定"
+      },
+      {
+        "allocation": "持币抽奖",
+        "percent": 40,
+        "status": "完全流通",
+        "unlock_policy": "持续用于抽奖奖池"
+      },
+      {
+        "allocation": "生态发展",
+        "percent": 10,
+        "status": "锁定",
+        "unlock_policy": "每月解锁1%用于研发与运营"
+      },
+      {
+        "allocation": "团队与顾问",
+        "percent": 10,
+        "status": "锁定",
+        "unlock_policy": "每月解锁2%"
+      }
+    ],
+    "reward_rules": {
+      "first_report": 100000,
+      "supplemental_evidence": 20000,
+      "review_task": 50000
+    },
+    "utility": [
+      "社区投票 (100 KOLE/次)",
+      "治理参与 (500 KOLE/月)",
+      "抽奖参与权与权重",
+      "生态活动奖励",
+      "二级市场自由交易"
+    ],
+    "treasury_support": {
+      "platform_capital_usd": 1000000,
+      "lottery_allocation_usd": 700000,
+      "investor_commitment_usd": 1000000
+    },
+    "deflation_mechanics": [
+      "PUMP直播奖励全部用于二级市场回购并销毁",
+      "成功曝光1名KOL即基金会回购并销毁总供应量0.5%",
+      "平台视运营情况执行不定期回购销毁"
+    ]
+  },
+  "economic_policies": {
+    "lottery_ticket_rule": "每持有30万 KOLE 获得1张抽奖券，地址最多计算5张",
+    "holding_requirement_hours": 1,
+    "prize_distribution_sol": {
+      "hourly": {"total": 10, "breakdown": [5, 3, 2]},
+      "daily": {"total": 66, "breakdown": [40, 20, 6]}
+    },
+    "reference_lottery_balance_sol": 2588
+  },
+  "governance": {
+    "structure": ["持币者大会", "治理委员会", "评审团", "开发团队", "运营团队"],
+    "voting_weights": [
+      {"holding_range": "1-999 KOLE", "weight_multiplier": 1.0, "privileges": ["基础投票权"]},
+      {"holding_range": "1,000-9,999 KOLE", "weight_multiplier": 1.2, "privileges": ["提案权"]},
+      {"holding_range": "10,000-99,999 KOLE", "weight_multiplier": 1.5, "privileges": ["评审团候选资格"]},
+      {"holding_range": "100,000+ KOLE", "weight_multiplier": 2.0, "privileges": ["治理委员会候选资格"]}
+    ],
+    "decision_making": {
+      "proposal_types": ["技术提案", "经济提案", "运营提案", "紧急提案"],
+      "execution_body": "治理委员会负责执行持币者投票结果",
+      "transparency_measures": ["链上投票记录", "定期治理报告", "开放式反馈渠道"]
+    }
+  },
+  "lottery_program": {
+    "contract_address": "2EL3kJNYbgoqvtK4eyfNxgYiwm2V7B84kfMd1KLRpump",
+    "draw_modes": [
+      {
+        "name": "普通大奖",
+        "frequency": "每小时",
+        "total_prize_sol": 10,
+        "winners": 3,
+        "distribution_sol": [5, 3, 2]
+      },
+      {
+        "name": "超级大奖",
+        "frequency": "每日00:00 (新加坡时间)",
+        "total_prize_sol": 66,
+        "winners": 3,
+        "distribution_sol": [40, 20, 6]
+      }
+    ],
+    "eligibility": {
+      "holding_duration_hours": 1,
+      "ticket_per_tokens": 300000,
+      "max_tickets_per_address": 5
+    },
+    "transparency": [
+      "抽奖算法开源",
+      "奖金池余额、倒计时与中奖记录实时公开",
+      "链上发奖记录可验证"
+    ]
+  },
+  "roadmap": {
+    "phase_1_2025_q1": {"status": "完成", "items": ["白皮书发布", "核心团队组建", "技术架构设计", "智能合约开发"]},
+    "phase_2_2025_q2": {"status": "完成", "items": ["主网部署", "Beta测试与官网发布", "首批用户招募", "KOLE代币发行"]},
+    "phase_3_2025_q3": {
+      "status": "进行中",
+      "items": [
+        "DEX上线交易 (完成)",
+        "CEX申请上线 (待完成)",
+        "合作伙伴拓展 (进行中)",
+        "移动APP发布 (待完成)"
+      ]
+    },
+    "phase_4_2025_q4": {"status": "计划中", "items": ["多语言支持", "跨链桥接", "AI辅助评审", "DAO完全去中心化"]},
+    "phase_5_2026_plus": {"status": "规划阶段", "items": ["行业标准制定", "监管合作", "Web3身份集成", "元宇宙扩展"]}
+  },
+  "risks": {
+    "technical": [
+      {"issue": "智能合约漏洞", "impact": "可能导致资金损失", "mitigation": "多重审计与形式化验证"},
+      {"issue": "网络攻击", "impact": "服务中断", "mitigation": "DDoS防护与多节点部署"},
+      {"issue": "扩展性瓶颈", "impact": "性能下降", "mitigation": "引入Layer2或分片等扩展方案"}
+    ],
+    "regulatory": [
+      {"issue": "政策变化", "impact": "合规风险", "mitigation": "紧跟各地监管动态并调整策略"},
+      {"issue": "合规要求", "impact": "需满足监管条款", "mitigation": "聘请法律顾问确保合规"},
+      {"issue": "KYC/AML要求", "impact": "可能增加用户门槛", "mitigation": "必要时实施身份验证流程"}
+    ],
+    "operational": [
+      {"issue": "恶意投稿", "impact": "污染数据与资源", "mitigation": "AI辅助筛查结合人工复核"},
+      {"issue": "评审串通", "impact": "影响公正性", "mitigation": "随机分配+信誉系统"},
+      {"issue": "市场竞争", "impact": "用户流失风险", "mitigation": "持续创新与优化体验"}
+    ]
+  },
+  "communication": {
+    "brand_voice": ["自信", "透明", "公正", "以社区为中心"],
+    "tone_attributes": ["坚定但友好", "强调事实与流程", "突出去中心化价值观"],
+    "messaging_focus": [
+      "去中心化监督与社区自治",
+      "Solana+IPFS高性能技术底座",
+      "证据不可篡改与公开可查",
+      "KOLE通缩激励逻辑",
+      "透明的抽奖与治理数据"
+    ],
+    "preferred_keywords": ["去中心化", "链上存证", "社区评审", "通缩机制", "Solana", "IPFS", "公平透明"],
+    "call_to_action_options": [
+      "加入KOLE社区，和我们一起构建公正透明的KOL生态",
+      "访问官网了解最新曝光案例与治理提案",
+      "持有KOLE参与抽奖与治理，亲手推动行业变革"
+    ],
+    "style_guidance": {
+      "structure": "推荐先点明关键信息，再补充技术/机制支撑，最后给出社区号召或行动邀请。",
+      "language_switching": "始终根据当前语言设置输出全篇中文或英文，不混用。",
+      "evidence_reference": "提及具体流程或机制时引用链上存证、评审人数、奖池数据等硬信息增强可信度。"
+    },
+    "forbidden_elements": ["DYOR", "非财务建议", "Do Your Own Research", "任何投资建议措辞"]
+  },
+  "language_modes": {
+    "default": "zh",
+    "supported": ["zh", "en"],
+    "commands": {
+      "/lang zh": "切换输出为中文",
+      "/lang en": "切换输出为英文"
+    },
+    "state_management": "会话内维护当前语言偏好，直到收到新的/lang指令"
+  },
+  "response_patterns": {
+    "rewrite_goal": "将用户原文改写为符合KOLE叙事与口吻的版本，确保重点替换为KOLE官方信息并保持自然流畅。",
+    "enrichment_rules": [
+      "必要时补充KOLE平台如何解决用户痛点，但避免偏离原文主题",
+      "突出链上透明、公正评审、激励闭环等卖点",
+      "描述代币与抽奖时引用具体数据 (如奖池金额、奖励额度)"
+    ],
+    "replacement_policies": [
+      "如原文出现其他项目/代币名称，应替换或并列说明为KOLE",
+      "确保所有提及的奖励与规则与知识库保持一致"
+    ],
+    "closing_strategies": [
+      "以社区号召或下一步行动结尾",
+      "避免使用任何免责声明或打折扣措辞",
+      "可引用抽奖、治理或举报激励作为行动引导"
+    ]
+  },
+  "compliance": {
+    "disallowed_phrases": ["DYOR", "非财务建议", "Do Your Own Research"],
+    "sensitive_topics_handling": "如用户询问投资或价格，强调平台聚焦监督与透明，不提供投资建议。",
+    "identity_consistency": "所有代币、品牌、合约等表述以KOLE官方信息为准"
+  },
+  "community": {
+    "website": "https://kolexposure.com/#/",
+    "telegram": "https://t.me/kolexposure",
+    "twitter_accounts": ["https://x.com/TODO_dream", "https://x.com/kolexposure"],
+    "discord": "https://discord.com/invite/sZf44CseTf",
+    "contract_address": "2EL3kJNYbgoqvtK4eyfNxgYiwm2V7B84kfMd1KLRpump"
+  },
+  "status": {
+    "current_phase": "Phase 3 生态扩展 (2025 Q3)",
+    "recent_milestones": ["DEX上线交易完成", "白皮书1.2发布"],
+    "upcoming_focus": ["推进CEX上线申请", "拓展合作伙伴", "研发移动APP"]
+  }
+}
