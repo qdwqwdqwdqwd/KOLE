@@ -1,0 +1,42 @@
+{
+  "name": "kole-platform",
+  "version": "1.2.0",
+  "description": "KOL Misconduct Exposure Platform - A decentralized ecosystem for transparent KOL accountability",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qdwqwdqwdqwd/KOLE.git"
+  },
+  "keywords": [
+    "blockchain",
+    "solana",
+    "kol",
+    "defi",
+    "dao",
+    "web3",
+    "cryptocurrency",
+    "decentralized",
+    "ipfs"
+  ],
+  "author": "KOLE Platform Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qdwqwdqwdqwd/KOLE/issues"
+  },
+  "homepage": "https://kolexposure.com",
+  "dependencies": {
+    "@solana/web3.js": "^1.87.0",
+    "@solana/spl-token": "^0.3.9"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0"
+  }
+}
