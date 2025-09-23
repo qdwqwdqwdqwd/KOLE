@@ -10,9 +10,12 @@
 
 **透明なKOL監視のための分散型エコシステム**
 
-[ウェブサイト](https://kolexposure.com) | [ホワイトペーパー](docs/whitepapers/Whitepaper_JP.md) | [English](README.md) | [中文](README_CN.md) | [コミュニティ](https://t.me/kolexposure)
+[ウェブサイト](https://kolexposure.com) | [ホワイトペーパー](docs/whitepapers/Whitepaper_JP.md) | [コミュニティ](https://t.me/kolexposure)
 
 [![Twitter](https://img.shields.io/twitter/follow/kolexposure?style=social&label=フォロー@kolexposure)](https://x.com/kolexposure) [![Twitter](https://img.shields.io/twitter/follow/TODO_dream?style=social&label=フォロー@TODO_dream)](https://x.com/TODO_dream)
+
+### 🌍 多言語バージョン
+[🇬🇧 English](README.md) | [🇨🇳 中文](README_CN.md) | [🇯🇵 日本語](README_JP.md) | [🇷🇺 Русский](README_RU.md) | [🇪🇸 Español](README_ES.md) | [🇰🇷 한국어](README_KR.md) | [🇸🇦 العربية](README_AR.md) | [🇹🇷 Türkçe](README_TR.md) | [🇧🇷 Português](README_PT.md) | [🇫🇷 Français](README_FR.md) | [🇩🇪 Deutsch](README_DE.md) | [🇮🇳 हिंदी](README_HI.md) | [🇮🇱 עברית](README_HE.md) | [🇻🇳 Tiếng Việt](README_VI.md) | [🇹🇭 ไทย](README_TH.md)
 
 </div>
 
